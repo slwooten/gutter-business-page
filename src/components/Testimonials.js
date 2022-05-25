@@ -1,10 +1,10 @@
 import React from 'react';
-import Logo from './logo/Logo';
+import Navbar from './navbar/Navbar';
 
 const Testimonials = () => {
   return (
     <>
-      <Logo />
+      <Navbar />
       <h2>Some of our Testimonials:</h2>
       <div>
         <p>Here will be lots of testimonials.</p>

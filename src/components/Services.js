@@ -1,10 +1,10 @@
 import React from 'react';
-import Logo from './logo/Logo';
+import Navbar from './navbar/Navbar';
 
 const Services = () => {
   return (
     <>
-      <Logo />
+      <Navbar />
       <h2>Our Services</h2>
       <div>
         <p>Here will be some of our services.</p>

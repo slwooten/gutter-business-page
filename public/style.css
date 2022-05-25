@@ -1,0 +1,48 @@
+:root {
+  --purple: #562d9d;
+  --green: #59c032;
+  --yellow: #f2c746;
+}
+
+* {
+  /* font-family: 'Shrikhand'; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-color {
+  background-color: var(--purple);
+  color: white;
+}
+
+.navbar-color {
+  background-color: var(--purple);
+}
+
+.nav-color {
+  color: var(--green);
+  text-decoration: none;
+}
+
+.nav-color:hover {
+  color: var(--yellow);
+}
+
+.nav-color-home {
+  color: var(--purple);
+}
+
+.nav-color-home:hover {
+  color: var(--yellow);
+}
+
+.inspection-h2-color {
+  color: var(--purple);
+}
+
+.inspection-h4-color {
+  color: var(--green);
+}
+
+.inspection-container h3, li {
+  font-family: Arial, Helvetica, sans-serif;
+}
