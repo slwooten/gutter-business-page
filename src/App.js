@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from './components/home/Home';
 import Schedule from './components/Schedule';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
 
 const App = () => {
   return (
@@ -13,8 +11,6 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/job' element={<Schedule />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/testimonials' element={<Testimonials />} />
         </Routes>
       </>
     </Router>
