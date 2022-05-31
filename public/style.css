@@ -9,6 +9,18 @@
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
+.green-text {
+  color: var(--green);
+}
+
+.purple-text {
+  color: var(--purple);
+}
+
+.gutter-font {
+  font-family: 'Shrikhand';
+}
+
 .btn-color {
   background-color: var(--purple);
   color: white;

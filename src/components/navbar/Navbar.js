@@ -9,6 +9,7 @@ const Navbar = () => {
         <a href='mailto:guttergangclt@gmail.com' className='nav-color p-2'>Email</a>
         <a href='tel:704-437-6707' className='nav-color p-2'>Call</a>
         <a href='sms:+7044376707' className='nav-color p-2'>Text</a>
+        <a href='/about-us' className='nav-color p-2'>About Us</a>
       </nav>
     </>
   )
